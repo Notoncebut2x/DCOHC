@@ -178,6 +178,14 @@ config.chapters.forEach((record, idx) => {
         chapter.appendChild(image);
     }
     
+    if (record.audio) {
+	var audio = new Audio();
+	audio.src = record.audio;
+	audio.controls = true;
+        audio.autoplay = true;
+	chapter.appendChild(audio);
+    }
+    
     if (record.description) {
         var story = document.createElement('p');
         story.innerHTML = record.description;

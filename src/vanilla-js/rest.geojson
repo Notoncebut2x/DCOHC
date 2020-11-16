@@ -1,0 +1,129 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2020-11-15T22:10:03Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/66646227",
+        "building": "yes",
+        "building:levels": "8",
+        "dataset": "buildings",
+        "dcgis:captureyear": "19990331",
+        "source": "dcgis"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0472509,
+              38.9058613
+            ],
+            [
+              -77.0479718,
+              38.9062744
+            ],
+            [
+              -77.0479718,
+              38.9062741
+            ],
+            [
+              -77.0479731,
+              38.9057237
+            ],
+            [
+              -77.0480532,
+              38.9056817
+            ],
+            [
+              -77.0480539,
+              38.9054413
+            ],
+            [
+              -77.0479592,
+              38.9054424
+            ],
+            [
+              -77.0479581,
+              38.9053844
+            ],
+            [
+              -77.0477009,
+              38.9053841
+            ],
+            [
+              -77.0475273,
+              38.9055689
+            ],
+            [
+              -77.0475298,
+              38.905705
+            ],
+            [
+              -77.0472509,
+              38.9058613
+            ]
+          ]
+        ]
+      },
+      "id": "way/66646227"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/66834531",
+        "addr:housenumber": "1729",
+        "addr:street": "Connecticut Avenue Northwest",
+        "building": "yes",
+        "dataset": "buildings",
+        "dcgis:captureyear": "19990331",
+        "dcgis:lot": "0032",
+        "dcgis:square": "0091",
+        "source": "dcgis"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0451032,
+              38.9134966
+            ],
+            [
+              -77.0451304,
+              38.9135443
+            ],
+            [
+              -77.0454024,
+              38.9134455
+            ],
+            [
+              -77.0453826,
+              38.9134105
+            ],
+            [
+              -77.0453977,
+              38.9134052
+            ],
+            [
+              -77.0453892,
+              38.9133909
+            ],
+            [
+              -77.0453828,
+              38.9133932
+            ],
+            [
+              -77.0451032,
+              38.9134966
+            ]
+          ]
+        ]
+      },
+      "id": "way/66834531"
+    }
+  ]
+}
