@@ -137,13 +137,13 @@ var config = {
             },
             onChapterEnter: [
                 {
-                    layer: 'gnpglaciers-2015',
+                    layer: '',
                     opacity: 0.25
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'gnpglaciers-2015',
+                    layer: '',
                     opacity: 0
                 }
             ]
@@ -158,7 +158,32 @@ var config = {
                 center: [-77.04528, 38.91353],
                 zoom: 19,
                 pitch: 45,
-                bearing: 75
+                bearing: 60
+            },
+            onChapterEnter: [
+                {
+                    layer: 'restaurantLocations',
+                    opacity: 0.85
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'restaurantLocations',
+                    opacity: 0
+                }
+            ]
+        },
+        {
+            id: 'clocBasement ',
+            title: '',
+            image: './Images_Meiwah/Slide_12_02.jpg',
+            audio: './audio/DCOHC_Meiwah_Slide_12.mp3',
+            description: '',
+            location: {
+                center: [-77.04528, 38.91353],
+                zoom: 19,
+                pitch: 45,
+                bearing: 60
             },
             onChapterEnter: [
                 {
@@ -174,15 +199,41 @@ var config = {
             ]
         },
         {
-            id: 'agassiz1998',
-            title: 'Agassiz Glacier, 1998',
-            image: '',
-            description: 'Agassiz Glacier is in Glacier National Park in the U.S. state of Montana. It is named after Louis Agassiz, a Swiss-American glaciologist. The glacier is situated in a cirque to the southeast of Kintla Peak west of the Continental Divide. Agassiz Glacier is one of several glaciers that have been selected for monitoring by the U.S. Geological Survey\'s Glacier Monitoring Research program, which is researching changes to the mass balance of glaciers in and surrounding Glacier National Park.',
+            id: 'deadEndWestEnd ',
+            title: '“Dead End” to West End',
+            image: './images/Slide_11_CityLights.jpg',
+            audio: './audio/DCOHC_Meiwah_Slide_13.mp3',
+            description: 'After over a decade of arduous work (working without weekends) at City Lights of China, Larry had decided to take a break to recharge himself physically and mentally. But it did not take long for him to miss working at restaurants and to scout around DC to open a new restaurant, Meiwah.<br><br>Seeking out a potential location for Meiwah, West End grabbed the attention of Larry and his business partners. Larry recalls West End was nicknamed “Dead End” in the late 1990s because it was a quiet neighborhood that had a park and a bookstore called Crowd Books.<br><br>Larry and his business partners spotted a corner retail space that has been left empty for two years. They spent many nights observing the neighborhood and counting the number of passersby. Then they decided to take the risk and open Meiwah in West End.',
             location: {
-                center: [-114.15881, 48.93439],
-                zoom: 13.51,
-                pitch: 41.00,
-                bearing: 78.33
+                center: [-77.04528, 38.91353],
+                zoom: 19,
+                pitch: 45,
+                bearing: 60
+            },
+            onChapterEnter: [
+                {
+                    layer: 'restaurantLocations',
+                    opacity: 0.85
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'gnpglaciers-2015',
+                    opacity: 0
+                }
+            ]
+        },
+        {
+            id: 'meiwahWestEnd',
+            title: 'Meiwah West End: from 2000 - 2019',
+            image: './Images_Meiwah/Slide_12_02.jpg',
+            audio: './audio/DCOHC_Meiwah_Slide_14.mp3',
+            description: '',
+            location: {
+                center: [-77.04773, 38.90547],
+                zoom: 17.5,
+                pitch: 160,
+                bearing: -65.00
             },
             onChapterEnter: [],
             onChapterExit: []
