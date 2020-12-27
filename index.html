@@ -8,6 +8,7 @@
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css' rel='stylesheet' />
     <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
     <script src="https://unpkg.com/scrollama"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <style>
         body {
             margin:0; 
@@ -58,7 +59,7 @@
         }
         .light {
             color: #444;
-            background-color: #fafafa;
+            background-color: #fafafa;  
         }
         .dark {
             color: #fafafa;
@@ -89,6 +90,36 @@
             font-style: italic;
         }
 
+        button {
+            margin-left:auto;
+            margin-right:auto;
+            color: #494949 !important;
+            text-transform: uppercase;
+            text-decoration: none;
+            background: #ffffff;
+            padding: 5px;
+            border: 3px solid #494949 !important;
+            display: inline-block;
+            transition: all 0.4s ease 0s;
+        }
+
+        button:hover {
+            color: #ffffff !important;
+            background: #a9371e;
+            border-color: #a9371e !important;
+            transition: all 0.4s ease 0s;
+        }
+
+        .wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .audioTranscript{
+            display: none;
+        }
+
         @media (max-width: 750px) {
             #features {
                 width: 90vw;
@@ -110,6 +141,27 @@
 <div id="story"></div>
 <script src="./config.js"></script>
 <script>
+
+// function myFunction()
+// {
+//   var x = document.getElementsByClassName('audioTranscript');
+//   if (x.style.display === "none") {
+//     x.style.display = "block";
+//   } else {
+//     x.style.display = "none";
+//   }
+// }
+
+// function myFunction() {
+//         var x = document.getElementById("audioTranscript");
+//         console.log("test")
+//         if (x.style.display === "none") {
+//           x.style.display = "block";
+//         } else {
+//           x.style.display = "none";
+//         }   
+//     }
+
 var layerTypes = {
     'fill': ['fill-opacity'],
     'line': ['line-opacity'],
@@ -183,17 +235,18 @@ config.chapters.forEach((record, idx) => {
         image.src = record.image;  
         chapter.appendChild(image);
     }
-    
+    // Add audio function
     if (record.audio) {
-	var audio = new Audio();
-	audio.src = record.audio;
-	audio.controls = true;
+	    var audio = new Audio();
+	    audio.src = record.audio;
+	    audio.controls = true;
         audio.autoplay = true;
-	chapter.appendChild(audio);
+	    chapter.appendChild(audio);
     }
-    
+
     if (record.description) {
         var story = document.createElement('p');
+        story.setAttribute("id", "");
         story.innerHTML = record.description;
         chapter.appendChild(story);
     }
@@ -203,6 +256,42 @@ config.chapters.forEach((record, idx) => {
     if (idx === 0) {
         container.classList.add('active');
     }
+
+    if (record.transcript) {
+
+        function setAttributes(transcript, attrs) {
+            for(var key in attrs) {
+            button.setAttribute(key, attrs[key]);
+            }
+        }
+        var button = document.createElement('button');
+        //setAttributes(button, {"onclick": "myFunction()", "id": "wrapper"});
+        setAttributes(button, {"class": "wrapper"});
+
+        // button.setAttribute("onclick", "myFunction()")
+        button.innerHTML = "Transcript";
+        chapter.appendChild(button)
+    }
+
+    //Add a Transcript drop down div
+    if (record.transcript) {
+
+        function setAttributes(transcript, attrs) {
+            for(var key in attrs) {
+            transcript.setAttribute(key, attrs[key]);
+            }
+        }
+
+        var transcript = document.createElement('p');
+       // setAttributes(transcript, {"id": "audioTranscript", "style": "display:none"});
+        setAttributes(transcript, {"class": "audioTranscript"});
+
+
+        //transcript.setAttribute("id", "audioTranscript")
+        transcript.innerHTML = record.transcript;
+        chapter.appendChild(transcript)
+    }
+
 
     chapter.classList.add(config.theme);
     container.appendChild(chapter);
@@ -284,6 +373,11 @@ map.on("load", function() {
 
 // setup resize event
 window.addEventListener('resize', scroller.resize);
+
+$(".wrapper").click(function() { 
+    // assumes element with id='button'
+    $(".audioTranscript").toggle();
+});
 
 </script>
 
