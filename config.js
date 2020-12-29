@@ -5,8 +5,8 @@ var config = {
     showMarkers: false,
     alignment: 'left',
     theme: 'light',
-    title: 'The Ambassador of Meiwah',
-    subtitle: 'Change in coverage from 1998 to 2015',
+    title: 'Larry La',
+    subtitle: 'Ambassador of Meiwah',
     byline: 'By: Chrystal Rie',
     footer: 'Crystal Rie',
     chapters: [
@@ -152,11 +152,12 @@ var config = {
             ]
         },
         {
-            id: 'cloc ',
+            id: 'cloc',
             title: 'City Lights of China turned into Refugee Meeting Room',
             image: './images/Slide_11_CityLights.jpg',
-            audio: './audio/DCOHC_Meiwah_Slide_11.mp3',
-            description: 'At City Lights of China, Larry was reunited with the United Nations High Commissioner for Refugee whom he had met at the refugee camp in Malaysia.<br><br>Since their reunion, Larry has opened up his restaurant as meeting space to international, religious, and any organizations that serve refugees.',
+            audio: './audio/DCOHC_Meiwah_Slide_12.mp3',
+            description: 'After twelve years since Larry immigrated to America, he was reconnected with Rene Van Rooyen, the United Nations High Commissioner for Refugee, whom he had met at the refugee camp in Malaysia. <br><br>Since their reunion, Larry has reimagined his restaurant to not only feed diners, but to also serve as a meeting space for refugee communities and other organizations working to support them.',
+            transcript: 'And believe it or not, 12 years later, after we got the accepted and Mr. Rooyen. Twelve years after that, Mr. Rooyen, still work for UN High Commissioner, but got promoted to be the head of the UN in the United States and his office just right across from City Lights of China. Before he came, the people that worked for the UN there, UN now, they moved to Dupont Circle, south now, but before they were on North of Dupont Circle. But the people that work there, they come to our restaurant and I said, "Hey Larry, the new boss coming in two weeks. He used to be the at the refugee in Malaysia." I said, "Oh, is that Mr. Rooyen? Is that?" They said, "We think that\'s the one." So when he came after a few weeks, he said to Ian, I came to see him, "That\'s the one." Of course, I recognized him right away because he doesn\'t change. But he could not recommend me because when we in refugee camp, we had long hair and dark skin because it\'s very tropical weather, this way, every day. So we talk about reminding thing about the past. I say, "Wow! What a small world!" And we sit right there and his office and looking out the window and he say, "What are you doing?" I said, "Well, I run my restaurant right there." So I showed him through the window. He can see the City Lights right across there. He said, "Oh really?" So from then on the Lights of China become the refugee restaurant. Anytime they have any kind of refugee meeting with the refugee, the Catholic organization or any other organization about refugee. They will have meeting there at our restaurant. So it\'s very amazing that I got to reunited with him. And from then on, everything, every year I go to the UN High Commissioner for Refugees here in DC. They have the New Year\'s celebration or, Refugee International, anytime anywhere they have the gala to raise money. I always attend and I always giving back to the community, the refugee community.',
             location: {
                 center: [-77.04528, 38.91353],
                 zoom: 19,
@@ -177,11 +178,12 @@ var config = {
             ]
         },
         {
-            id: 'clocBasement ',
-            title: '',
-            image: './Images_Meiwah/Slide_12_02.jpg',
-            audio: './audio/DCOHC_Meiwah_Slide_12.mp3',
-            description: '',
+            id: 'cloc2',
+            //title: 'City Lights of China turned into Refugee Meeting Room',
+            // image: './images/Slide_11_CityLights.jpg',
+            audio: './audio/DCOHC_Meiwah_Slide_11.mp3',
+            // description: 'After twelve years since Larry immigrated to America, he was reconnected with Rene Van Rooyen, the United Nations High Commissioner for Refugee, whom he had met at the refugee camp in Malaysia. <br><br>Since their reunion, Larry has reimagined his restaurant to not only feed diners, but to also serve as a meeting space for refugee communities and other organizations working to support them.',
+            transcript:'I was in City Lights for 10 years, and I was in the basement for everyday. I used to work seven days, or six days, or six and a half days easily. And I\'m in the basement so long, and the ceiling was so low. I can jump up and can touch the ceiling. So, when I go out at lunchtime, after lunchtime to do errand, to go bank and do everything, so now I feel like the sky is that low that I could touch the sky, I mean just the feeling. It\'s kind of scary and I feel like, wow, I better not stay in the basement for another 10 years. I don\'t know what I\'d feel about psychologically. So, I want to get out, and I want to sell the restaurant to other people so we can open a new restaurant. So that\'s why, after I sold it in 1998, I thought that I could find another career, find another business, but I still miss the customers, and also the staff too, and the customers. So, a year later, some of the people, they still stay at City Lights after we sold, the people in the kitchen, they call me and say, ‘Hey, let\'s open another restaurant!’ I said, ‘well, I wanted to,’ because I myself, that\'s what they say, how much golf you can play everyday. So, I said, ‘well, I need to get back to the restaurant business.’ And I\'m probably one of the few people that get out of the restaurant business, still want to get in, because I love it. You have to like it.',
             location: {
                 center: [-77.04528, 38.91353],
                 zoom: 19,
@@ -196,32 +198,34 @@ var config = {
             ],
             onChapterExit: [
                 {
-                    layer: 'gnpglaciers-2015',
+                    layer: 'restaurantLocations',
                     opacity: 0
                 }
             ]
         },
+
         {
             id: 'deadEndWestEnd ',
             title: '“Dead End” to West End',
-            image: './images/Slide_11_CityLights.jpg',
-            audio: './audio/DCOHC_Meiwah_Slide_13.mp3',
-            description: 'After over a decade of arduous work (working without weekends) at City Lights of China, Larry had decided to take a break to recharge himself physically and mentally. But it did not take long for him to miss working at restaurants and to scout around DC to open a new restaurant, Meiwah.<br><br>Seeking out a potential location for Meiwah, West End grabbed the attention of Larry and his business partners. Larry recalls West End was nicknamed “Dead End” in the late 1990s because it was a quiet neighborhood that had a park and a bookstore called Crowd Books.<br><br>Larry and his business partners spotted a corner retail space that has been left empty for two years. They spent many nights observing the neighborhood and counting the number of passersby. Then they decided to take the risk and open Meiwah in West End.',
+            // image: './images/Slide_11_CityLights.jpg',
+            audio: './audio/DCOHC_Meiwah_Slide_14.mp3',
+            description: 'After over a decade of arduous work (working without weekends) at City Lights of China, Larry decided to take a break to recharge himself physically and mentally. But it did not take long for him to miss working at restaurants and to scout around DC to open a new restaurant, Meiwah.<br><br>As Larry and his business partners seeked out a potential location for Meiwah, West End emerged as a prime candidate. Larry recalls how West End used be nicknamed the “Dead End” in the late 1990s, given that it was a quiet neighborhood that had little else besides a park and a bookstore.<br><br>Larry and his business partners spotted a corner retail space that had been left empty for two years. They spent many nights observing the neighborhood and counting the number of passersby. Then they decided to take the risk and open Meiwah on the then sleepy corner of M Street and New Hampshire Ave.',
+            transcript: 'At that time, in 1998, 99, that area called West End, they still call West End, but they have a nickname called Dead End. On M Street, after 18th street, after 19th street, it\'s nothing until you go to Georgetown. So the whole section from 19th street to about 28th, it kind of only very, nothing going on that much. So they called it Dead End, and the Meiwah that we just closed, that corner left for two year, empty for two year. Nobody touched it. So when we got in, we want that space. There used to be a bookstore there, they called it Crowd Books, and all this thing. But when we got that space, that location, we had, across from there, that location, they have a park. That\'s a public park there. They now, they just make it very nice. My chef partner and I, we just sit there for many nights, just to count how many people are walking by the area. It\'s scary. It\'s not busy, you know? But I feel like it\'s a very good corner location. So we take the risk. We decided. But we\'re lucky. We got in there up to that. The Ritz Carlton opened, the other hotel across street from that, the St. Gregory [Hotel], and all these things started opening up. And the building right across from us used to be a parking lot, and now it\'s the high end building around the corner at New Hampshire, where you have Rasika. Rasika is on the first floor. Rasika didn\'t come in until probably three, four year, five years ago, Rasika. But before, it\'s an empty space, and all these things. But we were lucky.',
             location: {
-                center: [-77.04528, 38.91353],
-                zoom: 19,
-                pitch: 45,
-                bearing: 60
+                center: [-77.05363, 38.90716],
+                zoom: 14.9,
+                pitch: 0,
+                bearing: 0
             },
             onChapterEnter: [
                 {
-                    layer: 'restaurantLocations',
-                    opacity: 0.85
+                    layer: 'west-end',
+                    opacity: 0.25
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'gnpglaciers-2015',
+                    layer: 'west-end',
                     opacity: 0
                 }
             ]
@@ -238,146 +242,96 @@ var config = {
                 pitch: 160,
                 bearing: -65.00
             },
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'agassiz2015',
-            title: 'Agassiz Glacier, 2015',
-            image: '',
-            description: 'Between 1998 and 2015, Agassiz Glacier lost 108 acres of surface area (about 37%).',
-            location: {
-                center: [-114.15881, 48.93439],
-                zoom: 13.51,
-                pitch: 41.00,
-                bearing: 78.33
-            },
             onChapterEnter: [
                 {
-                    layer: 'gnpglaciers-2015',
-                    opacity: 0.25
+                    layer: 'restaurantLocations',
+                    opacity: .85
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'gnpglaciers-2015',
+                    layer: 'restaurantLocations',
                     opacity: 0
                 }
             ]
         },
         {
-            id: 'rainbow1998',
-            title: 'Rainbow Glacier, 1998',
-            image: '',
-            description: 'Rainbow Glacier is in Glacier National Park in the U.S. state of Montana. The glacier is situated immediately to the east of Rainbow Peak at an elevation between 8,500 feet (2,600 m) and 8,000 feet (2,400 m) above sea level. The glacier has visible crevasses in satellite imagery. Rainbow Glacier has shown modest retreat compared to other glaciers in Glacier National Park.',
+            id: 'meiwahChecyChase',
+            title: 'Meiwah in Chevy Chase',
+            image: './images/Slide_16.JPG',
+            // audio: './audio/DCOHC_Meiwah_Slide_14.mp3',
+            description: 'A few years after opening first Meiwah in West End, Larry opened his second Meiwah restaurant in Chevy Chase.',
+            transcript:'We opened 2003. We opened DC in 2000, and then 2003, actually 2002, the owner of that building want Meiwah to open, and again, I went up there, and we are second floor, it\'s very hard to do. A lot of people in this industry, not just Chinese restaurant, that I know, they say, ‘Don\'t open restaurant on second floor. It\'s hard.’ But I said, ‘I opened in the basement, I\'m from the street level, why not second floor? Try it!’ [...] We\'re lucky. At that time, we got there, that\'s way before you all know about. Right across from us now is a high rise... I mean, a very big building, apartment building, and a garden, and the pub, and everything. Before, there was a parking lot for a depressed retail store called Hecht\'s. I don\'t know, you\'re probably too young to know Hecht\'s. Hecht\'s been gone for probably 16, 17 years ago. Yeah, they usually, Hecht\'s usually big like Macy\'s or something like that. But they got that across from us. It was usually just an empty lot, all parking for Hecht\'s company. So, when I got that space, it was a little bit scary too. First, we\'re on the second floor. Secondly, that area is not like it is today. Right now you go on Wisconsin [Avenue] near where our restaurant is, they have a lot of department store, a lot of big building. Those building, like Microsoft building across from us, also Whole Foods on there, all these, they\'re new, just only in the last probably five to 10 years.',
             location: {
-                center: [-114.08659, 48.88039],
-                zoom: 13.09,
-                pitch: 50.00,
-                bearing: -53.60
-            },
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'rainbow2015',
-            title: 'Rainbow Glacier, 2015',
-            image: '',
-            description: 'Between 1998 and 2015, Rainbow Glacier lost 17 acres of surface area (about 6%).',
-            location: {
-                center: [-114.08659, 48.88039],
-                zoom: 13.09,
-                pitch: 50.00,
-                bearing: -53.60
+                center: [-77.08843, 38.96207],
+                zoom: 17.6,
+                pitch: 60,
+                bearing: -10.00
             },
             onChapterEnter: [
                 {
-                    layer: 'gnpglaciers-2015',
-                    opacity: 0.25
+                    layer: 'meiwah_CC',
+                    opacity: .85
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'gnpglaciers-2015',
+                    layer: 'meiwah_CC',
                     opacity: 0
                 }
             ]
         },
         {
-            id: 'kintla1998',
-            title: 'Kintla Glacier, 1998',
-            image: '',
-            description: 'Kintla Glacier is in Glacier National Park in the U.S. state of Montana. The glacier is situated on a plateau 2 miles (3.2 km) southwest of Kintla Peak at an elevation between 8,700 feet (2,700 m) and 7,700 feet (2,300 m) above sea level. The glacier has numerous crevasses and is actually two glaciers.',
+            id: 'meiwahChecyChase2',
+            // title: 'Meiwah in Chevy Chase',
+            image: './Images_Meiwah/Slide_17_01.jpg',
+            // audio: './audio/DCOHC_Meiwah_Slide_14.mp3',
+            // description: 'A few years after opening first Meiwah in West End, Larry opened his second Meiwah restaurant in Chevy Chase.',
+            transcript:'Even though Chevy Chase is only one block from the western area, that\'s the border of DC and Maryland, but the customers different. They mentally different. The people like suburb already, but the DC is more of a tourist and more of the people younger generation and people that lived there for long. So it\'s two different kinds of town. But again, they have people that work in DC. They eat lunch in DC at Meiwah and then at night they live in Chevy Chase but they start there and then they come to us for dinner. So we have both. That\'s I think that\'s the reason we can open the restaurant on second floor and still survive because we already have the client there. First they didn\'t know us. And quite frankly a lot of them, from my old restaurant still [inaudible] that\'s why I told you, I can see if you have pregnant, the son and now the son born, grew up, and now go the college and get married, and other see many generations because 30 years, a long time for many generation. You can see four generation come in together to eat. But this what is that you can build up a clientele that they feel very loyal to you. I have so many of this customer they\'ve been with me unless they move somewhere or some of them pass away but they still come to us. So we have a good time. And so that\'s why important is you have to repeat customer in this business. You can just say, okay, you come you come you don\'t say a one shot No. You have to take care of the customer today, they feel good when they come in they feel better when they leave',
             location: {
-                center: [-114.18755, 48.92880],
-                zoom: 13.09,
-                pitch: 48.50,
-                bearing: 164.00
-            },
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'kintla2015',
-            title: 'Kintla Glacier, 2015',
-            image: '',
-            description: 'Between 1998 and 2015, Harrison Glacier lost 24 acres of surface area (about 10%).',
-            location: {
-                center: [-114.18755, 48.92880],
-                zoom: 13.09,
-                pitch: 48.50,
-                bearing: 164.00
+                center: [-77.08843, 38.96207],
+                zoom: 17.6,
+                pitch: 60,
+                bearing: -10.00
             },
             onChapterEnter: [
                 {
-                    layer: 'gnpglaciers-2015',
-                    opacity: 0.25
+                    layer: 'meiwah_CC',
+                    opacity: .85
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'gnpglaciers-2015',
+                    layer: 'meiwah_CC',
                     opacity: 0
                 }
             ]
         },
         {
-            id: 'sperry1998',
-            title: 'Sperry Glacier, 1998',
-            image: '',
-            description: 'Sperry Glacier is a glacier on the north slopes of Gunsight Mountain west of the Continental Divide in Glacier National Park in the U.S. state of Montana. Although many geologic features of Glacier National Park were formed during the much longer period of glaciation ending over 10,000 years ago, Sperry Glacier — like all the glaciers in the park today — is a product of the recent Little Ice Age, the period of cooler average temperatures starting in about the 13th century and concluding in the mid-19th century.',
+            id: 'meiwahChecyChase3',
+            // title: 'Meiwah in Chevy Chase',
+            image: './Images_Meiwah/Slide_18_GeneralTso.jpg',
+            // audio: './audio/DCOHC_Meiwah_Slide_14.mp3',
+            description: '<span class="quote">In the United States, it doesn\'t matter how small a Chinese restaurant is or how big it is, you have to have General Tso\'s chicken. That\'s one of the main thing....You can\'t find it in China. Like the fortune cookie, you don\'t have in China... But people love it.</span>',
+            transcript:'The Blair House is right across from the White House. The Blair House official name is the guest house of the president. The president of United States, like the Queen of England, the president of China, president of Korea, whatever come in, they don\'t stay in the hotel. The president invite them to stay in the Blair House. They have 14 bedrooms, very nice, beautiful there. So they have a lot of function that run by the State Department. So, the protocol office or the state department, so I\'ve been there many time for that. And one time, they asked us to cook, they called taste of China. So they have Ambassador from China here, and then the state department ... We cooked, and Ambassador said, "What did you cook today?" I said, "General Tso\'s chicken." And he looked at me and said, "What\'s that?" I said, even I speak in Chinese, he didn\'t know. He said, "What is General Tso’s?" I said, well, I said, "Ambassador, in this country, in the United States, it doesn\'t matter how small a Chinese restaurant is or how big it is, you have to have General Tso\'s chicken. That\'s one of the main thing." And it is not in China. You can\'t find in China. Like the fortune cookie, you don\'t have in China. So that\'s what we ... But people love it. So, the taste of people, going to the general public, that\'s more important. And of course, some people, they want something more fancy, you know? Beijing Duck is one of them. But in general, people like General Tso\'s chicken. So that ambassador asked me, "What\'s Meiwah mean?" I said, "Okay, Mei mean America, Wah mean China, American-Chinese." I said, "These two countries." I said that probably about six, seven years ago, I said, "Even these two countries so important to each other in the world that we cannot afford any kind of war, even economic war." Right now we have that. I said, "When we come disagreement, just the Chinese delegation and the American just come to Meiwah and have a meal, have a dinner, and drink Qingdao beer and solve the problem." And the ambassador said, "That\'s a good idea!',
             location: {
-                center: [-113.75672, 48.62433],
-                zoom: 13.68,
-                pitch: 34.50,
-                bearing: 106.40
-            },
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'sperry2015',
-            title: 'Sperry Glacier, 2015',
-            image: '',
-            description: 'Between 1998 and 2015, Harrison Glacier lost 37 acres of surface area (about 16%).',
-            location: {
-                center: [-113.75672, 48.62433],
-                zoom: 13.68,
-                pitch: 34.50,
-                bearing: 106.40
+                center: [-77.08843, 38.96207],
+                zoom: 17.6,
+                pitch: 60,
+                bearing: -10.00
             },
             onChapterEnter: [
                 {
-                    layer: 'gnpglaciers-2015',
-                    opacity: 0.25
+                    layer: 'meiwah_CC',
+                    opacity: .85
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'gnpglaciers-2015',
+                    layer: 'meiwah_CC',
                     opacity: 0
                 }
             ]
-         }
+        }
     ]
 };
