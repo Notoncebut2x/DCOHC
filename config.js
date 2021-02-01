@@ -230,7 +230,7 @@ var config = {
 	{
 		id:'clocMenu',
 		image:'./images/Slide_13.jpg',
-		description:'Menu and Matchbook from City Lights of China',
+		description:'Vintage City Lights of China menu and matchbook from the ‘90s. The menu included American Chinese classic dishes such as Orange Chicken and Sweet and Sour Pork, each priced at $8.95. For drinks, it offered beer, wine, cocktails, cognac, champagne, as well as "exotic drink" and non-alcoholic selections. Its exotic beverages referring to tiki cocktails, included the Frozen Fruit Daiquiri, Mai Tai, Pina Colada, Planter’s Punch, and other offerings.',
 		location: {
 		    center:[-77.04528, 38.91353],
                 zoom: 19,
