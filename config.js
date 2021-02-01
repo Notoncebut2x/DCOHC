@@ -8,7 +8,7 @@ var config = {
     title: 'Larry La',
     subtitle: 'Ambassador of Meiwah',
     byline: 'By: Chrystal Rie',
-    footer: 'Crystal Rie',
+    footer: '© 2021 - Crystal Rie <br><br> This program was supported by a grant from HumanitiesDC as part of the “Humanities Grant Program”, an initiative funded by the DC Commission on the Arts and Humanities.',
     chapters: [
         {
             id: 'born',
@@ -24,12 +24,7 @@ var config = {
                 bearing: 0.00
             },
             onChapterEnter: [],
-            onChapterExit: [
-                // {
-                //     layer: 'gnpglaciers-2015',
-                //     opacity: 0
-                // }
-            ]
+            onChapterExit: []
         },
         {
             id: 'vietnamWar',
@@ -230,7 +225,7 @@ var config = {
 	{
 		id:'clocMenu',
 		image:'./images/Slide_13.jpg',
-		description:'Vintage City Lights of China menu and matchbook from the ‘90s. The menu included American Chinese classic dishes such as Orange Chicken and Sweet and Sour Pork, each priced at $8.95. For drinks, it offered beer, wine, cocktails, cognac, champagne, as well as "exotic drink" and non-alcoholic selections. Its exotic beverages referring to tiki cocktails, included the Frozen Fruit Daiquiri, Mai Tai, Pina Colada, Planter’s Punch, and other offerings.',
+		description:'Vintage City Lights of China menu and matchbook from the ‘90s. The menu included American Chinese classic dishes such as Orange Chicken and Sweet and Sour Pork, each priced at $8.95. For drinks, it offered beer, wine, cocktails, cognac, champagne, as well as "exotic drink" and non-alcoholic selections. Its exotic beverages referring to tiki cocktails, included the Frozen Fruit Daiquiri, Mai Tai, Pina Colada, Planter’s Punch, and other offerings.s',
 		location: {
 		    center:[-77.04528, 38.91353],
                 zoom: 19,
@@ -280,7 +275,7 @@ var config = {
             id: 'meiwahWestEnd',
             title: 'Meiwah West End: from 2000 - 2019',
             image: './images/Slide_15_01_Meiwah_WestEnd.jpg',
-            // audio: './audio/DCOHC_Meiwah_Slide_14.mp3',
+            audio: './audio/DCOHC_Meiwah_Slide_15.mp3',
             description: '',
             location: {
                 center: [-77.04773, 38.90547],

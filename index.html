@@ -89,6 +89,7 @@
 
         .step img {
             width: 100%;
+            box-shadow: 2.5px 2.5px 10px rgba(0,0, 0, 0.4);
         }
 
         .quote {
@@ -125,6 +126,13 @@
 
         .audioTranscript{
             display: none;
+        }
+        
+        audio { 
+            width: 100%; 
+            box-shadow: 2.5px 2.5px 10px rgba(0,0, 0, 0.4);
+            border-radius: 90px;
+            transform: scale(.98);
         }
 
 
@@ -168,25 +176,6 @@
 <script src="./config.js"></script>
 <script>
 
-// function myFunction()
-// {
-//   var x = document.getElementsByClassName('audioTranscript');
-//   if (x.style.display === "none") {
-//     x.style.display = "block";
-//   } else {
-//     x.style.display = "none";
-//   }
-// }
-
-// function myFunction() {
-//         var x = document.getElementById("audioTranscript");
-//         console.log("test")
-//         if (x.style.display === "none") {
-//           x.style.display = "block";
-//         } else {
-//           x.style.display = "none";
-//         }   
-//     }
 
 var layerTypes = {
     'fill': ['fill-opacity'],
@@ -266,6 +255,7 @@ config.chapters.forEach((record, idx) => {
 	    var audio = new Audio();
 	    audio.src = record.audio;
 	    audio.controls = true;
+        audio.preload = true;
 	    chapter.appendChild(audio);
     }
 
