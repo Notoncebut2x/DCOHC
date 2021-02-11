@@ -124,9 +124,6 @@ var config = {
         {
             id: 'route',
             title: 'Larry\'s Journey',
-            // image: './images/Boat_4554_in_Kuching_Sarawah_1979.jpg',
-            // audio: './audio/DCOHC_Meiwah_Slide_07.mp3',
-            // description: 'Following the end of the Vietnam War in 1975, Larry’s family fled Vietnam by boat and arrived at a refugee camp on Borneo Island in Malaysia. After living at the refugee camp for 15 months, his family was able to immigrate to the United States through sponsorship from the First Baptist Church of Erwin in Tennessee.',
             location: {
                 center: [140.23839, 5.85966],
                 zoom: 1.85,
