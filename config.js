@@ -99,7 +99,7 @@ var config = {
         id: 'erwinTN',
         //title: '',
         image: './images/Slide_08_Church.jpg',
-        audio: './audio/DCOHC_Meiwah_Slide_08',
+        audio:'./audio/DCOHC_Meiwah_Slide_08.mp3',
         description: 'When Larry’s family arrived in Erwin in the late 1970s, his family was one of a few families of color who settled down in the area.',
         transcript:'When you\'re in refugee camp, you don\'t know where you\'ll be end up. Because you need to wait for the sponsorship. So the first Baptist church of Erwin, Tennessee decided to sponsor our family. So that\'s why we end up in Erwin. Forgive me to say that, but when I was in refugee camp, when we get assignments say Tennessee, we didn\'t know where Tennessee was. In overseas, you would know Chicago, you would know LA, San Francisco, Miami, but not Tennessee. And then not Erwin, Tennessee. It\'s a very small town, only about 4000, 5000 population. People there until today is 100% Caucasian. And those too they\'ve been living there for generations, many, many generations. And none, not one single African American live there. No Asian lived there.',
         location: {
@@ -375,7 +375,7 @@ var config = {
             id: 'epilogue',
             title: 'What does Washington, DC mean to you?',
             image: './images/Slide_20.jpg',
-            audio: './audio/DCOHC_Meiwah_Slide_19.mp3',
+            audio: './audio/DCOHC_Meiwah_Slide_20.mp3',
             description: '<span class="quote">I lived in DC since 1988, so it\'s 31 years. So this is a place that I call home, because even in Vietnam, I left Vietnam when I was 20, so only 20 years, and then Tennessee, and then, so here is the place that I lived the longest […] the greater Washington DC, it\'s very dynamic, and trust me, it\'s like the melting pot...In this area, you speak with an accent, nobody pays attention to you. But in some other states, the people say, ‘who is this? Where\'s he come from?’ But here, it\'s okay. </span>',
             transcript: 'I lived in DC since 1988, so it\'s 31 years. So this is a place that I call home, because even in Vietnam, I left Vietnam when I was 20, so only 20 years, and then Tennessee, and then, so here is the place that I lived the longest, and that gave me a lot of... And besides, this is the capital of the country, and at least, we still the great country in the world, so it\'s very, very honored to live here. I feel very good to be in this area. And with the suburban Virginia and Maryland, I mean, this is very, they call the greater Washington DC, it\'s very dynamic, and trust me, it\'s like a melting pot, a lot of people from different ... In this area, you speak with an accent, nobody pay attention to you, you know? But in some other state, the people say, who is this? Where\'s he come from? But here, it\'s okay.',
 	    location: {
