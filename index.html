@@ -49,8 +49,9 @@
             padding-bottom: 10vh;
             z-index: 100;
         }
-        .wide {
+        .widev{
             width: 89vw;
+            margin: 0 auto;
         }
         .centered {
             width: 50vw;
@@ -250,6 +251,8 @@ config.chapters.forEach((record, idx) => {
         image.src = record.image;  
         chapter.appendChild(image);
     }
+    
+
     // Add audio function
     if (record.audio) {
 	    var audio = new Audio();
@@ -305,6 +308,28 @@ config.chapters.forEach((record, idx) => {
         transcript.innerHTML = record.transcript;
         chapter.appendChild(transcript)
     }
+    
+      
+      
+
+
+function workOnClassAdd() {
+    alert("I'm triggered when the class is added")
+}
+    
+    //Create Wide Chapter
+   //  if (record.chapterSize) {
+        
+      //  function setAttributes(chapterSize, attrs) {
+      //      for(var key in attrs) {
+      //      transcript.setAttribute(key, attrs[key]);
+      //      }
+      //  }
+        
+      // var element = document.getElementsByClassName('');
+      // element.classList.add('wide');
+         
+   //  }
    
 
 
