@@ -2,18 +2,19 @@ var config = {
     style: 'mapbox://styles/rorynealon/ckfh4ha911czy19o6gphiw1zw',
     //accessToken:'pk.eyJ1Ijoicm9yeW5lYWxvbiIsImEiOiJjazJveTNjdnQwaHF5M21tdHV2ZTV2YjE3In0.I3OhWK8stAfiXzDFMHa7vA',
     accessToken:'pk.eyJ1Ijoicm9yeW5lYWxvbiIsImEiOiJQSkZ2NU9nIn0.8i2jsHIQQBU4lDdv3emAbQ',
-    showMarkers: false,
+    showMarkersw: false,
     alignment: 'left',
     theme: 'light',
     title: 'Larry La',
-    subtitle: 'Ambassador of Meiwah',
-    byline: 'By: Chrystal Rie',
+    subtitle: 'How did Meiwah become American politicians’ favorite Chinese restaurant in DC?',
+    byline: '',
     footer: '© 2021 - Crystal Rie <br><br> This program was supported by a grant from HumanitiesDC as part of the “Humanities Grant Program”, an initiative funded by the DC Commission on the Arts and Humanities.',
     chapters: [
         {
             id: 'born',
             title: 'Ambassador of Meiwah: Larry La',
             image: './images/Slide_03.png',
+            caption: 'Test',
             audio: './audio/DCOHC_Meiwah_Slide_03.mp3',
             chapterSize: 'wide',
             description: 'How did Meiwah become American politicians’ favorite Chinese restaurant in DC?',
@@ -170,9 +171,9 @@ var config = {
             description: '<span class="quote">I love politics. So you couldn\'t pick a better city than Washington DC.</span><br><br>One day, Larry got a phone call from his brother-in-law asking if he would be interested in managing a Chinese restaurant in Washington, DC. The chef spoke no English, and he needed someone to run the front of the house. Larry grabbed at the opportunity, and moved to the nation’s capital to begin his career at City Lights of China, located in Dupont Circle. ',
             transcript:'When I came here, I did not have Meiwah. We have City Lights of China. That\'s the former restaurant. And they still here on Connecticut, in a basement in DuPont Circle. That\'s where I started the restaurant business there. The reason I came up here for that because one of my brother-in-law, got to know the chef and the chef needs somebody to run the dining room. He cook well but he doesn\'t speak English, and he doesn\'t know how to run the front. So my brother introduce me and I came up here. I look around. I love the metropolitan Washington, DC, Virginia. So I said, this is good area. And I love, because you can tell, I love politics too. So you couldn\'t pick a better city than Washington DC. So I got into City Lights in 1988, so that\'s when we work with the chef. The chef is from Taiwan, he is an excellent chef. So he take care of the kitchen, I take care of dining. And we were in the basement. It\'s very unusual for us that we can have that kind of business. We were so... Well first, I think it\'s the cooking in any restaurant, the food has to be the main thing there, to be a decent food that people would like it. And the chef is very good. And then I take care of the front, getting people. And in the basement, but we style pretty well. And then later on in the 1990s, I consider this tiny restaurant in the town, everybody knows City Lights of China. And I got to know so many politician, Senator, governor, justice. The Supreme Court justice, I met so many of them, the Justice of the Supreme Court.',
             location: {
-                center: [-77.04349, 38.90967],
-                zoom: 17,
-                pitch: 45,
+                center: [-77.07549, 38.90967],
+                zoom: 11.55,
+                pitch: 15,
                 bearing: -0
             },
             onChapterEnter: [

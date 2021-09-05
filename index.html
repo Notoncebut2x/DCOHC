@@ -135,7 +135,7 @@
             border-radius: 90px;
             transform: scale(.98);
         }
-
+        
 
         h1 {
             font-family: 'Yatra One', cursive;
@@ -160,6 +160,15 @@
                 width: 90vw;
                 margin: 0 auto;
             }
+        }
+        
+        #caption {
+            opacity:0
+        }
+        
+        .step .light:hover #caption {
+            opacity:1
+        
         }
 
         /* Fix issue on mobile browser where scroll breaks  */
@@ -252,7 +261,14 @@ config.chapters.forEach((record, idx) => {
         chapter.appendChild(image);
     }
     
-
+    if (record.caption) {
+        var story = document.createElement('p');
+        story.setAttribute("id", "caption");
+        story.innerHTML = record.caption;
+        chapter.appendChild(story);
+    }
+    
+    
     // Add audio function
     if (record.audio) {
 	    var audio = new Audio();
@@ -311,46 +327,10 @@ config.chapters.forEach((record, idx) => {
     
       
       
-
-
 function workOnClassAdd() {
     alert("I'm triggered when the class is added")
 }
     
-    //Create Wide Chapter
-   //  if (record.chapterSize) {
-        
-      //  function setAttributes(chapterSize, attrs) {
-      //      for(var key in attrs) {
-      //      transcript.setAttribute(key, attrs[key]);
-      //      }
-      //  }
-        
-      // var element = document.getElementsByClassName('');
-      // element.classList.add('wide');
-         
-   //  }
-   
-
-
-    // if(record.chapterType){
-    //     // $('div.lefty').addClass('div.wide');
-
-    //     // function setAttributes(chapterType, attrs) {
-    //     //     for(var key in attrs) {
-    //     //     chapterType.setAttribute(key, attrs[key]);
-    //     //     }
-    //     // }
-
-    //     // setAttributes(chapterType, {"class": "wide"});
-
-    //     document.getElementById('vietnamWar').setAttribute("class", "wide");
-
-    //     // transcript.innerHTML = record.transcript;
-    //     // chapter.getElementsByClassName('transcript')
-    // }
-
-
     chapter.classList.add(config.theme);
     container.appendChild(chapter);
     features.appendChild(container);
