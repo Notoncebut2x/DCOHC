@@ -58,7 +58,7 @@
             margin: 0 auto;
         }
         .lefty {
-            width: 33vw;
+            width: 42vw;
             margin-left: 5vw;
         }
         .righty {
@@ -268,6 +268,19 @@ config.chapters.forEach((record, idx) => {
         chapter.appendChild(story);
     }
     
+
+   
+    if (record.chapterSize == 'wide') {
+        features.classList.replace('lefty', 'centered');
+        } else if (record.chapterSize == 'lefty') {
+             features.classList.replace('centered', 'lefty');
+        }
+        
+    
+   // if (record.chapterSize) {
+   //     var wide = document.getElementById("lefty").classList.remove('lefty');
+   //     document.getElementById("lefty").classList.add('MyClass');
+   // }
     
     // Add audio function
     if (record.audio) {
@@ -325,8 +338,6 @@ config.chapters.forEach((record, idx) => {
         chapter.appendChild(transcript)
     }
     
-      
-      
 function workOnClassAdd() {
     alert("I'm triggered when the class is added")
 }

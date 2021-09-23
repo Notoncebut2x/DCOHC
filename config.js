@@ -6,19 +6,19 @@ var config = {
     alignment: 'left',
     theme: 'light',
     title: 'Larry La',
-    subtitle: 'How did Meiwah become American politicians’ favorite Chinese restaurant in DC?',
+    subtitle: 'Ambassador of Meiwah',
     byline: '',
-    footer: '© 2021 - Crystal Rie <br><br> This program was supported by a grant from HumanitiesDC as part of the “Humanities Grant Program”, an initiative funded by the DC Commission on the Arts and Humanities.',
+    footer: '2021 © - District of Cuisines <br><br> This program was supported by a grant from HumanitiesDC as part of the “Humanities Grant Program”, an initiative funded by the DC Commission on the Arts and Humanities.',
     chapters: [
         {
             id: 'born',
-            title: 'Ambassador of Meiwah: Larry La',
+            title: 'How did Meiwah become American politicians’ favorite Chinese restaurant in DC?',
             image: './images/Slide_03.png',
             caption: 'Test',
-            audio: './audio/DCOHC_Meiwah_Slide_03.mp3',
-            chapterSize: 'wide',
+            audio: './audio/DCOHC_Meiwah_Slide_03.mp3',          
+            // chapterSize: 'wide',
             description: 'How did Meiwah become American politicians’ favorite Chinese restaurant in DC?',
-            transcript: 'I like to meet different people, so that\'s why it helps to go to different party. White House party, State party. And the people in English, they say, "don\'t judge a book by the cover." Don\t look at people from ... But that\'s exactly what everybody does. And the way I said that, because I had a State Department event, and I wear the Chinese outfit called Zhongshan Zhuang. It\'s very formal. Because I had black tie tuxedo because it has a lot of work. That one, I just put on, it looked pretty good. And one time, I was at a State Department party. I could see a lady that really wanted to talk to me, because they kept smiling at me, and said hello, all this thing. And then she walked over, and then we talked, and then she said, "Excuse me, you\'re ambassador from what country?" And I looked very serious, I said, "I am ambassador from Meiwah." And she felt bad. “I\'m so sorry.” Well, I don\'t know, because quite some country in the world that you don\'t know what it is. I mean, not everybody is USA and England or France. So I said, "Oh, Meiwah on the corner of New Amsterdam." And she looked at me, looked like, "what?" And then I pulled out my business card. I said, "I\'m so sorry, ma\'am, I\'m just joking with you. This is my business card. I run a restaurant called Meiwah, and of course, I am the ambassador from Meiwah, for sure." And we both laughed.',
+            transcript: 'I like to meet different people, so that\'s why it helps to go to different party. White House party, State party. And the people in English, they say, "don\'t judge a book by the cover." Don\'t look at people from ... But that\'s exactly what everybody does. And the way I said that, because I had a State Department event, and I wear the Chinese outfit called Zhongshan Zhuang. It\'s very formal. Because I had black tie tuxedo because it has a lot of work. That one, I just put on, it looked pretty good. And one time, I was at a State Department party. I could see a lady that really wanted to talk to me, because they kept smiling at me, and said hello, all this thing. And then she walked over, and then we talked, and then she said, "Excuse me, you\'re ambassador from what country?" And I looked very serious, I said, "I am ambassador from Meiwah." And she felt bad. “I\'m so sorry.” Well, I don\'t know, because quite some country in the world that you don\'t know what it is. I mean, not everybody is USA and England or France. So I said, "Oh, Meiwah on the corner of New Amsterdam." And she looked at me, looked like, "what?" And then I pulled out my business card. I said, "I\'m so sorry, ma\'am, I\'m just joking with you. This is my business card. I run a restaurant called Meiwah, and of course, I am the ambassador from Meiwah, for sure." And we both laughed.',
             location: {
                 center: [106.3397879, 9.9385840],
                 zoom: 13.5,
@@ -33,7 +33,7 @@ var config = {
             title: 'Vietnam: the Beginning of Larry’s Story',
             image: './images/Slide_04.jpg',
             audio: './audio/DCOHC_Meiwah_Slide_04.mp3',
-            chapterSize: 'wide',
+           // chapterSize: 'wide',
             description: 'Larry La was born in Vietnam in the 1950s to Chinese parents who fled the country during the Chinese Civil War. His father emigrated to Vietnam as a teeanager and settled down in South Vietnam near the Mekong delta. Growing up, Larry and his siblings spoke Mandarin at home and used Vietnamese at school.',
             transcript: '<i>My parents left China when they had the civil war there, back in the 1930s, before the World War II. And at that time the communist, Mao Zedong and the Kuomintang, Chiang Kai-shek, they were have a civil war in China. And then also Japan invaded China at that time in the 1930s. So it\'s got big turmoil economically and everything politically, everything, just chaos...My father came to Vietnam when he was teenager. Then he stayed in Vietnam the rest of his life after that. And then get into business, and we were all born in Vietnam. I was born in Vietnam in the South, in the Mekong delta. And grew up with two languages. We speak Chinese at home or we speak Chinese with the Chinese community in Vietnam. And went to Vietnamese school. So we have two languages growing up.</i>',
             location: {
@@ -49,6 +49,7 @@ var config = {
             id: 'vietnamWar',
             title: '',
             image: './images/Slide_05.jpg',
+            chapterSize: 'lefty',
             audio: './audio/DCOHC_Meiwah_Slide_05.mp3',
             description: '<span class="quote">In Vietnam, we jokingly said, if you hear an explosion, that means you\'re still alive.</span><br><br>Larry recalls growing up in a war zone as a teenager and seeing dead bodies on the street on his way back from school. This repeated and traumatic exposure to everyday violence numbed him to the daily atrocities he encountered. He had no other choice but to adopt a mental toughness that stayed with him into adulthood.',
             transcript: '<i>Actually I was born and grew up in a war zone. It\'s just the time I was born and the time that the communists up North took over the whole South Vietnam in 1975. April 30th of 75. That\'s the fall of Saigon. Still war going on a little bit, but that\'s part of the end of the war. And since then, Vietnam had been peace for the last 40 some years. They have some war right after that, probably 1976, 77 to Cambodia. And then with China in 1978. But that\'s it. After that, Vietnam have not had war for a long time. But few in Vietnam, like my age or they go today, we all born and grew up in a war zone. We see people, their body on the streets, coming back from school. You just come and walk by and take a look. If it\'s somebody that you know, you don\'t, you just walk on. Gun fire almost everywhere. If you look in the TV nowadays in some of the Middle East country, it\'s pretty bad at that time. And in Vietnam we always jokingly saying, but that\'s real is that, \‘if you hear an explosion, that means you\'re still alive.’ That\'s how bad. You can walk by somewhere, they have the explosion. Because it\'s a civil war. The Vietnamese communists, they\'re called Viet Cong. They everywhere. Especially when I was old enough at that time, in 1968 when they have the Tet Offensive, there\'s really fighting right inside the city. We probably numb with the war, so that\'s why we not die, scary, because it\'s everywhere is war anyway. So I still remember even teenager, I still very young, 12, 13. I still standing the roof of the building, not the red roof, the building too. We see the helicopter, military helicopter shoot out from both sides of that. And you can see the explosion from the target. And we\'re standing there watch, look like we\'re watching movie but it\'s real. So that give you a sense that when people go to war zone, their mentality is different than people who never see war before. That\'s not so obvious.</i>',
@@ -93,7 +94,7 @@ var config = {
             title: '',
             image: './images/Slide_07_Sarawak.png',
             audio: './audio/DCOHC_Meiwah_Slide_07.mp3',
-            chapterSize: 'wide',
+            //chapterSize: 'wide',
             description: 'While Larry’s family was staying at the refugee camp, Larry assisted the local representative of the United Nations High Commissioner for Refugees, Rene Van Rooyen, in interacting with the other refugees from Vietnam. Following Rooyen’s suggestion, Larry’s family immigrated to the United States through sponsorship from a Baptist church in Erwin, Tennessee.',
             transcript:'<i>You got to the refugee camp, the UN High Commissioner for Refugees, they would come to interview you. Say, okay, get your [inaudible 00:48:30]. And then, that\'s the UN High Commissioner. So after that you have to wait for a third country like Australia, New Zealand, US, and Canada, or European country to accept you. So there\'s another process that they come in. At that time, for some reason, everybody said that, "Oh, you have a big family, you should go to Australia because they have a lot of land, you can do farming." So we really want to go to Australia from the beginning because we thought that that\'s the... But then after that we..., Australia is very strict at the time that they don\'t take that many people into the country. So later on, one of the High Commissioner [for Refugees], Mr. Rene Van Rooyen, he\'s Dutch and he worked for the High Commissioner in our camp. So he came to interview. And even though my English was not good at that time, but it\'s a lot better than a lot of other people in the camp. So I was helping him a lot, fill out paper form and all these things. Writing is okay but speaking is different. But I still speak enough to talk to him. So anytime he come to the camp I would come to help him to deal with the other refugee. So Rooyen said, ‘Why don\'t you go to America?’ I said, ‘I don\'t know why I don\'t go.’ ‘So let\'s go.’ So he got me to the American interviewer, the people from the Embassy of the US Embassy in Malaysia. So they interviewed our family and they accepted. That\'s when you get to come to this country that\'s the process.</i>',
             location: {
@@ -115,6 +116,28 @@ var config = {
                 }
             ]
         },
+        // {
+       //     id: 'route',
+       //     title: 'Larry\'s Journey',
+       //     location: {
+       //         center: [140.23839, 5.85966],
+       //         zoom: 1.85,
+       //         pitch: 10.00,
+       //         bearing: -0.02
+       //     },
+       //     onChapterEnter: [
+       //         {
+       //             layer: 'boatTripLong',
+       //             opacity: 0.85
+       //         }
+       //     ],
+       //     onChapterExit: [
+       //         {
+       //             layer: 'boatTripLong',
+       //             opacity: 0
+       //         }
+       //     ]
+       // },
         {
         id: 'erwinTN',
         title: 'Larry’s Family Arrives in Erwin, Tennessee',
@@ -141,28 +164,7 @@ var config = {
              }
         ]
         },
-        {
-            id: 'route',
-            title: 'Larry\'s Journey',
-            location: {
-                center: [140.23839, 5.85966],
-                zoom: 1.85,
-                pitch: 10.00,
-                bearing: -0.02
-            },
-            onChapterEnter: [
-                {
-                    layer: 'boatTripLong',
-                    opacity: 0.85
-                }
-            ],
-            onChapterExit: [
-                {
-                    layer: 'boatTripLong',
-                    opacity: 0
-                }
-            ]
-        },
+       
         {
             id: 'move2DC',
             title: 'Larry Moves to the City of Politics',
@@ -218,7 +220,7 @@ var config = {
         {
             id: 'cloc2',
             title: 'Larry Decides It’s Time to Move On',
-            image: './images/Slide_12.jpg',
+            image: './images/Slide_12.png',
             audio: './audio/DCOHC_Meiwah_Slide_12.mp3',
             description:'After over a decade of arduous work (working without weekends) at City Lights of China, Larry decided to take a break to recharge himself physically and mentally. But it did not take long for him to miss working at restaurants and to scout around DC to open a new restaurant.',
             transcript:'I was in City Lights for 10 years, and I was in the basement for everyday. I used to work seven days, or six days, or six and a half days easily. And I\'m in the basement so long, and the ceiling was so low. I can jump up and can touch the ceiling. So, when I go out at lunchtime, after lunchtime to do errand, to go bank and do everything, so now I feel like the sky is that low that I could touch the sky, I mean just the feeling. It\'s kind of scary and I feel like, wow, I better not stay in the basement for another 10 years. I don\'t know what I\'d feel about psychologically. So, I want to get out, and I want to sell the restaurant to other people so we can open a new restaurant. So that\'s why, after I sold it in 1998, I thought that I could find another career, find another business, but I still miss the customers, and also the staff too, and the customers. So, a year later, some of the people, they still stay at City Lights after we sold, the people in the kitchen, they call me and say, ‘Hey, let\'s open another restaurant!’ I said, ‘well, I wanted to,’ because I myself, that\'s what they say, ‘how much golf you can play everyday.’ So, I said, ‘well, I need to get back to the restaurant business.’ And I\'m probably one of the few people that get out of the restaurant business, still want to get in, because I love it. You have to like it.',
